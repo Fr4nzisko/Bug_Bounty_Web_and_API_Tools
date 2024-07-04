@@ -1,0 +1,42 @@
+Client-IP:
+Client-IP: localhost
+Forwarded-For-Ip:
+Forwarded-For-Ip: localhost
+Forwarded-For:
+Forwarded-For: localhost
+Forwarded:
+Forwarded: localhost
+True-Client-IP:
+True-Client-IP: localhost
+X-Client-IP:
+X-Client-IP: localhost
+X-Custom-IP-Authorization:
+X-Custom-IP-Authorization: localhost
+X-Forward-For:
+X-Forward-For: localhost
+X-Forward:
+X-Forward: localhost
+X-Forwarded-By:
+X-Forwarded-By: localhost
+X-Forwarded-For-Original:
+X-Forwarded-For-Original: localhost
+X-Forwarded-For:
+X-Forwarded-For: localhost
+X-Forwarded-Server:
+X-Forwarded-Server: localhost
+X-Forwarded:
+X-Forwarded: localhost
+X-Forwared-Host:
+X-Forwared-Host: localhost
+X-Host:
+X-Host: localhost
+X-HTTP-Host-Override:
+X-HTTP-Host-Override: localhost
+X-Originating-IP:
+X-Originating-IP: localhost
+X-Real-IP:
+X-Real-IP: localhost
+X-Remote-Addr:
+X-Remote-Addr: localhost
+X-Remote-IP:
+X-Remote-IP: localhost

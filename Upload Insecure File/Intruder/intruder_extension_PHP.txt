@@ -1,0 +1,83 @@
+.jpeg.php
+.jpg.php
+.png.php
+.php
+.php3
+.php4
+.php5
+.php7
+.php8
+.pht
+.phar
+.phpt
+.pgif
+.phtml
+.phtm
+.php_.gif
+.php%00.gif
+.php\x00.gif
+.php%00.png
+.php\x00.png
+.php%00.jpg
+.php\x00.jpg
+.php%00
+.php%20.jpg
+.php%0d%0a.jpg
+.php%3B1
+.php%3B2
+.php%2520.jpg
+.php%2500.jpg
+.php%253B1
+.php%3F.jpg
+.php%23.jpg
+Decimal Encode:
+.php%2500
+.php%2520.jpg
+.php%253B1
+.php%3F.jpg
+.php%23.jpg
+.php%2500.jpg
+.php%2500.png
+.php%2500.gif
+.php%253B1
+.php%25200d%25200a.jpg
+.php�.jpg
+.php .jpg
+.php;.jpg
+.php?.jpg
+.php#.jpg
+.php┠.jpg
+.php─.jpg
+.php┻1
+.php?.jpg
+.php#.jpg
+.php%00 .jpg
+.php%20�.jpg
+.php%0d%0a .jpg
+.php%3B�.jpg
+.php%3F .jpg
+.php%2500%20.jpg
+.php%2520%2500.jpg
+.php%253B%20.jpg
+.php%3F%2520.jpg
+.php%23%2500.jpg
+.php�%2500.jpg
+.php %2520.jpg
+.php;%253B.jpg
+.php?%2500.jpg
+.php#%2520.jpg
+.php%00�.jpg
+.php%20 .jpg
+.php%0d%0a&#x0d%0a.jpg
+.php%3B;.jpg
+.php%3F?.jpg
+.php%00.jpg
+.php%20.jpg
+.php�.jpg
+.php .jpg
+.php%2500.jpg
+.pht┠.jpg
+.phar%2500%2520.jpg
+.phpt%253B1%3F.jpg
+.pgif&#x2520%2500.jpg
+.phtml%2500 .jpg
