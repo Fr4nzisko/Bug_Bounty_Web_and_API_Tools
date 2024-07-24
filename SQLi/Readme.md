@@ -1,6 +1,6 @@
 # Advanced SQL Injection Techniques
 
-Here are some Advanced SQL Injection Techniques I commonly use. Happy hunting! 👍
+Here are some Advanced SQL Injection Techniques I commonly use. 
 
 **Note:** ⚠️⚠️These advanced techniques should be used responsibly and only in legal and authorized testing scenarios. They go beyond the basics and exploit specific features and configurations of databases. Additionally, I may have unintentionally included openly available techniques from various sources.
 
