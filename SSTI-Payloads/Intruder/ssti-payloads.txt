@@ -25,6 +25,7 @@ ${= 3*3}
 {{2*2}}[[3*3]]
 {{3*'3'}}
 {{dump(app)}}
+{{"sid".upper()}}
 {{app.request.server.all|join(',')}}
 {{config.items()}}
 {{[].class.base.subclasses()}}
